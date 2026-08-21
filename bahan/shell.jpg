@@ -3231,7 +3231,7 @@ return ($file=='..'?$s.'back.png':$a.'img/icon-folder-culanseng.png');
 $ext = explode('.',$file);
 $ext = end($ext);
 $ext = strtolower($ext);
-return (in_array($ext,$types)?$s.$ext.'.png':$s.'icon-file-culanseng.png');
+return $s.'icon-file-culanseng.png';
 }
 }
 function alfadlfile(){
